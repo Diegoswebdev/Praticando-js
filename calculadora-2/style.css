@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, black, red);
+}
+
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+}
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+.display{
+    text-align: right;
+    background-color: white;
+    width: 222px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.teclas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 222px;
+    flex-wrap: wrap;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;    
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+
+.del{
+    background-color: rgb(235, 77, 77);
+}
+
+.tOp2 {
+    background-color: green
+}
+
+
+
+
+
+
+    

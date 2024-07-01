@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Praticando CSS GRID</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="nome">
+            <p>DIEGO SOARES</p>
+        </div>
+        <div class="calc">
+           <div class="display"></div>
+            <button class="btn icons" onclick="limpar()"><span class="material-symbols-outlined">
+                delete
+                </span></button>
+            <button class="btn icons" onclick="apagar()"><span class="material-symbols-outlined">
+                backspace
+                </span></button>
+            <button class="btn operadores" onclick="digito('/')">/</button>
+            <button class="btn operadores" onclick="digito('*')">x</button>
+            <button class="btn" onclick="digito('7')">7</button>
+            <button class="btn" onclick="digito('8')">8</button>
+            <button class="btn" onclick="digito('9')">9</button>
+            <button class="btn operadores" onclick="digito('-')">-</button>
+            <button class="btn" onclick="digito('4')">4</button>
+            <button class="btn" onclick="digito('5')">5</button>
+            <button class="btn" onclick="digito('6')">6</button>
+            <button class="btn operadores" onclick="digito('+')">+</button>
+            <button class="btn" onclick="digito('1')">1</button>
+            <button class="btn" onclick="digito('2')">2</button>
+            <button class="btn" onclick="digito('3')">3</button>
+            <button class="btn operadores igual" onclick="operador()">=</button>
+            <button class="btn zero" onclick="digito('0')">0</button>
+            <button class="btn" onclick="digito('.')">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
