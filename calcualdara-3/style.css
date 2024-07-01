@@ -8,7 +8,7 @@
 }
 
 .nome{
-    background-color: tomato;    
+    background-color: tomato;
     font-size: 30px;
     text-align: center;
     color: white;
@@ -26,16 +26,12 @@
     height: 100vh;    
 }
 
-
-
 .calc {
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(6, 100px);
-    
+    grid-template-rows: repeat(6, 100px);    
          
 }
-
 
 .display{
     grid-column: 1/5;
@@ -81,6 +77,3 @@
 .zero {
     grid-column: 1 / 3;
 }
-
-
-
