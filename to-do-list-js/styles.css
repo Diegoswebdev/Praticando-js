@@ -1,0 +1,71 @@
+/* reseta os styles pre definido da pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Estilos gerais para o corpo da página*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+        
+}
+
+/* Estilos para o contêiner principal*/
+.conteiner{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilos para o título */
+h1{
+    margin: 0 0 20px;
+}
+
+/*Estilos para o botão adicionar */
+#addTaskBtn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para lista de tarefas */
+
+#taskList{
+    background-color: #fff;
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;  
+    
+}
+
+/* Estilo para o botão de deletar */
+
+#taskList li button {
+    background-color: #dc3545;
+    color: white;
+    margin: 15px;
+    padding:  5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão de deletar quando passa o mouse*/
+
+#taskList li button{
+    background-color: #c82333;
+}
